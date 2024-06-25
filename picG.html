@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+
+    width: 300px;
+    height:auto;
+    margin: 6px 10px;
+    padding: 15px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+  width:300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Image Gallery</h2>
+
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./img/c1.jpg">
+      <img src="./img/c1.jpg" alt="ปีกไก่ทอดน้ำปลา">
+    </a>
+    <div class="desc">
+        ปีกไก่ทอดน้ำปลา
+        <ul>
+            <li>มักปีกไก่ กับซีอิ้วขาว กับ น้ำปลา อย่างละ 2 ช้อน ทิ้งไว้ 2 ชั่วโมงพอจะนำออกมาทอดให้ใส่แป้งทอดกรอบ ผสมกับน้ำเย็นคลุกๆให่เข้ากัน</li>
+            <li>ตั้งน้ำมันให้เดือด ปริมาณน้ำมันต้องเทให้ท้วมเนื้อไก่</li>
+            <li>ทอดไฟกลางถึงแรง </li>
+        </ul>
+ 
+    </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./img/c2.jpg">
+      <img src="./img/c2.jpg" alt="หมูทอดเจียงฮาย">
+    </a>
+    <div class="desc">หมูทอดเจียงฮาย
+        <ul>
+            <li>ถูมันหมูและเนื้อหมูกับเกลือให้สะอาด น้ำล้าง ซับเนื้อหมูให้แห้ง หั่นมันหมูและหมูสันนอกเป็นแผ่นบางๆ เตรียมไว้</li>
+            <li>โขลกกระเทียม รากผักชี และพริกไทยให้เข้ากัน ใส่เครื่องโขลก นำเข้าตู้เย็นพักไว้ 2 ชั่วโมง</li>
+            <li>นำหมูหมักออกจากตู้เย็น ตั้งกระทะน้ำมันพืชบนไฟกลาง นำหมูลงทอด</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./img/c3.jpg">
+      <img src="./img/c3.jpg" alt="จิ้กกุ่งทอด">
+    </a>
+    <div class="desc">จิ้กกุ่งทอด
+        <ul>
+            <li>ล้าง ล้วงไส้ ให้สะอาด</li>
+            <li>ใส่จิ้งกุ่งลงกระทะ ถ้าชอบกรอบให้ทอดประมาณ 2-3 นาที ซึ่งจะมีกลิ่นหอมโชย</li>
+            <li>ใส่ใบเตยที่หั่นแล้วใส่ลงไปซึ่งจะเป็นตัวเสริมกลิ่นให้หอมน่ากิน หรือใช้สมุนไพรตัวอื่นก็ได้แล้วแต่ชอบ</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./img/c4.jpg">
+      <img src="./img/c4.jpg" alt="รถด่วน">
+    </a>
+    <div class="desc">รถด่วน
+        <ul>
+            <li>ล้างตัวหนอนให้สะอาด</li>
+            <li>นำตัวหนอนไปลวกในน้ำร้อน ให้ตัวหนอนเหยียดตรง พักไว้ให้สะเด็ดน้ำ</li>
+            <li>ตั้งกระทะไฟปานกลาง พอน้ำมันร้อนใส่ตัวหนอนลงทอดจนกระทั่งสุก เหลือง กรอบ ตักขึ้นโรยเกลือเล็กน้อยให้ทั่ว พร้อมรับประทาน</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+    <h1>ข้อความตัวอย่าง</h1>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, assumenda nam, dolorem sequi explicabo cumque optio voluptas, incidunt natus maiores veniam! Nulla iure autem illo? Velit accusamus ipsum molestias nulla.
+</div>
+
+</body>
+</html>
+
+
+
