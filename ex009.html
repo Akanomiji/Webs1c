@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การใช้งาน iframe</title>
+    <style>
+        nav {
+            margin: 2%;
+        }
+
+        nav li {
+            background-color: rgb(11, 248, 240);
+            
+            display: inline;
+            padding: 20px;
+        }
+
+        iframe ::content {
+            position: absolute;
+            top: 10%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 25%;
+            height: 25%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><A href="https://en.wikipedia.org/wiki/Supercomputer" TARGET="CONTENT">ซูเปอร์คอมพิวเตอร์</A></li>
+            <li><A href="https://en.wikipedia.org/wiki/Mainframe_computer" TARGET="CONTENT">เมนเฟรมคอมพิวเตอร์</A></li>
+            <li><A href="https://eurotempest.net/2013/04/24/tempest-mini-computer/" TARGET="CONTENT">มินิคอมพิวเตอร์</A>
+            </li>
+            <li><A href="https://en.wikipedia.org/wiki/Microcomputer" TARGET="CONTENT">ไมโครคอมพิวเตอร์</A></li>
+        </ul>
+    </nav>
+    <IFRAME SRC="./img/c1.jpg" NAME="CONTENT" width="25%" height="25%"></IFRAME>
+    <iframe width="25%" height="25%" src="https://www.youtube.com/embed/ztb-wMeQUUk?si=_KS9IRH-X_IoZB6b"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <iframe src="https://www.tradingview.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+    
+
+
+    
+
+
+</body>
+
+</html>
