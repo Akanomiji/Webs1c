@@ -1,89 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บไซต์แนะนำกาแฟ</title>
+    <title>CSS</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+        *{
+            background-color: pink;
+            font-size: 30px;
+            padding: 2%;
         }
-        header {
-            background-color: #333;
-            color: #fff;
+
+
+        #title {
+            color: red;
             text-align: center;
-            padding: 1rem 0;
-            margin-bottom: 20px;
+            padding: 10px;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
+
+        div {
+            color: blue;
+            background-color: aqua;
+            font-size: 52px;
+            padding: 10px;
+            margin: 50px auto;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .d1 {
+            color: rgb(0, 255, 13);
+            background-color: rgb(255, 0, 13);
+            font-size: 52px;
+            padding: 10px;
+            margin: 50px auto;
         }
-        .section {
-            margin-bottom: 40px;
+        #d1{
+            color: rgb(239, 255, 12);
+            background-color: rgb(140, 0, 255);
+            font-size: 52px;
+            padding: 10px;
+            margin: 50px auto;
         }
-        .section h2 {
-            color: #333;
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-        .section p {
-            color: #666;
-        }
-        .section img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding-top: 20px;
-            border-top: 1px solid #ccc;
-            color: #666;
+        .d2{
+            color: rgb(255, 12, 243);
+            background-color: rgb(140, 0, 255);
+            font-size: 48px;
+            padding: 10px;
+            margin: 50px auto;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>ยินดีต้อนรับสู่เว็บไซต์แนะนำกาแฟ</h1>
-        <p>รู้จักกับความเป็นเอกลักษณ์ของกาแฟ</p>
-    </header>
-    <div class="container">
-        <section class="section">
-            <h2>ประวัติความเป็นมาของกาแฟ</h2>
-            <p>ในส่วนนี้คุณสามารถเขียนเกี่ยวกับประวัติความเป็นมาของกาแฟ และที่มาของกาแฟจากที่ไหน</p>
-        </section>
-        <section class="section">
-            <h2>ชนิดของกาแฟ</h2>
-            <p>อธิบายเกี่ยวกับชนิดของกาแฟที่มีอยู่ เช่น อาราบิก้า, โรบัสต้า, เฟอร์เดีย, และอื่นๆ</p>
-        </section>
-        <section class="section">
-            <h2>การบริโภคกาแฟ</h2>
-            <p>แสดงวิธีการชงกาแฟอย่างถูกวิธี และเทคนิคการชง</p>
-        </section>
-        <section class="section">
-            <h2>ภาพถ่าย</h2>
-            <img src="coffee.jpg" alt="ภาพกาแฟ">
-        </section>
+    <p id="title">หัวข้อที่ 1</p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste recusandae nihil tenetur, voluptatum, ullam
+    consequatur aut saepe tempora velit provident pariatur dicta, eaque ipsa quos incidunt iusto quia reiciendis magni!
+    <div>
+        <p>Div1</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quo vel! Nam possimus sit eveniet, dolores
+        tenetur assumenda aliquam, atque excepturi repudiandae nisi numquam ipsum sint veritatis eius! Aut, dolorum!
     </div>
-    <footer>
-        <p>สงวนลิขสิทธิ์ &copy; 2024 เว็บไซต์แนะนำกาแฟ</p>
-    </footer>
+    <div class="d1">
+        <p class="d1">Div2</p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore mollitia in eveniet fugit ullam a suscipit et magnam exercitationem ratione, aperiam, nemo praesentium earum delectus ab sapiente fuga ducimus. Fugit!
+    </div>
+    <div id="d1">
+        <p id="d1">Div3</p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, veritatis illum delectus magnam dolorum architecto eum soluta enim rerum cupiditate aut ad. Deleniti tempore ullam, enim doloremque quasi voluptates numquam!
+    </div>
+    <div class="d2">
+        <p class="d2">Div4</p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam maxime, quo rerum iste magnam labore culpa et, est inventore impedit praesentium earum dolor voluptas! Aperiam nemo qui voluptate ab explicabo?
+    </div>
 </body>
+
 </html>
